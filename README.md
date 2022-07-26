@@ -8,7 +8,7 @@ Well, I tried my best to set it production ready. Nevertheless, use at your own 
 
 ## Contributing
 
-I highly encourage you to contribute. If you have some crazy idea and would to like to contribute, please open an issue and we'll discuss the next steps.
+I highly encourage you to contribute. If you have any crazy idea, please open an issue and we'll discuss the next steps.
 
 ## Services Created
 
@@ -26,3 +26,9 @@ I highly encourage you to contribute. If you have some crazy idea and would to l
   + Route tables
 - RDS
 - Cloudwatch Logs
+
+## References
+
+- [Terraform explained in 15 mins | Terraform Tutorial for Beginners](https://www.youtube.com/watch?v=l5k1ai_GBDE)
+- [8 Terraform Best Practices that will improve your TF workflow immediately](https://www.youtube.com/watch?v=gxPykhPxRW0)
+- [How to Build Reusable, Composable, Battle tested Terraform Modules](https://www.youtube.com/watch?v=LVgP63BkhKQ)

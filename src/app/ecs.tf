@@ -11,7 +11,7 @@ resource "aws_ecs_task_definition" "main" {
   container_definitions = jsonencode([
     {
       name      = local.container_name
-      image     = "nginx:latest"
+      image     = "rccsilva/dummy-server"
       cpu       = 256
       memory    = 512
       essential = true

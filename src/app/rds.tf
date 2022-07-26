@@ -19,7 +19,7 @@ resource "aws_db_instance" "main" {
     aws_security_group.db.id
   ]
 
-  final_snapshot_identifier = "${timestamp()}${var.name}-db-final-snapshot"
+  final_snapshot_identifier = "${var.name}-db-final-snapshot"
   skip_final_snapshot = false
   publicly_accessible = false
 }

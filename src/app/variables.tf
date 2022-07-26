@@ -2,6 +2,10 @@ variable "name" {
   type = string
 }
 
+variable "github_repo" {
+  type = string
+}
+
 variable "public_subnets" {
   type = list(object({
     id = string

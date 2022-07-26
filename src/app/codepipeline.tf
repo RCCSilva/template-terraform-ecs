@@ -19,7 +19,7 @@ resource "aws_codepipeline" "codepipeline" {
 
       configuration = {
         ConnectionArn    = var.github_connection.arn
-        FullRepositoryId = "rccsilva/${var.name}"
+        FullRepositoryId = var.github_repo
         BranchName       = "main"
       }
     }
